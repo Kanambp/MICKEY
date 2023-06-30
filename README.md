@@ -1,12 +1,12 @@
 
 
-<h1 align="center">ꪶ𝗖𝗵𝗲𝗲𝗺𝘀 𝗕𝗼𝘁-𝗠𝗗 𝗩8ꫂ<br></h1>
+<h1 align="center">KANAMBO PRESENTING MICKEY<br></h1>
 <p align="center">
-<img src="https://i.imgur.com/fZei9g0.jpg" width="540" height="280" />
+<img src="https://i.imgur.com/fZei9g0.jpg" width="540" height="500" />
 </p>
 
 <p align="center">
-Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">Xeon</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro.
+Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">KANAMBO PETER</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro i will appreciate.
 </p>
 
 <p align="center">
@@ -33,7 +33,7 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 
 ## ```Connect With Me```
 <p align="center">
-<a href="https://wa.me/254114148625"><img src="https://img.shields.io/badge/Contact Xeon-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
+<a href="https://wa.me/254114148625"><img src="https://img.shields.io/badge/Contact KANAMBO-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 <a href="https://chat.whatsapp.com/Ei8SGOBRMH06aD3mk23fbF"><img src="https://img.shields.io/badge/Join Official GC-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" />
 </p>
 
@@ -48,6 +48,7 @@ Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://
 - FORK THE REPOSITORY [Here](https://github.com/Kanambp/MICKEY/fork)
 
 ## `Scan QR Code For Session`
+# CLICK HERE BELOW 👇 FOR SESSION 
 [![MICKEY BOT](https://repl.it/badge/github/quiec/whatsasena)](https://replit.com/@Kanambp/KANAMBO-QR2?v=1)
 
 ## ` BUILDPACKS`
