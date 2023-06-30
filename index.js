@@ -56,7 +56,7 @@ async function XeonBotIncBot() {
     	const XeonBotInc = XeonBotIncConnect({
         logger: pino({ level: 'silent' }),
         printQRInTerminal: true,
-        browser: [`${botname}`,'Safari','3.0'],
+        browser: [`${botname}`,'Firefox','3.0'],
         auth: state,
         getMessage: async (key) => {
             if (store) {
@@ -64,7 +64,7 @@ async function XeonBotIncBot() {
                 return msg.message || undefined
             }
             return {
-                conversation: "Cheems Bot Here"
+                conversation: "Mickey Bot Here"
             }
         }
     })
@@ -103,11 +103,11 @@ try{
 			} else XeonBotInc.end(`Unknown DisconnectReason: ${reason}|${connection}`)
 		}
 		if (update.connection == "connecting" || update.receivedPendingNotifications == "false") {
-			console.log(color(`\n🌿Connecting...`, 'yellow'))
+			console.log(color(`\n🌿Connecting please wait...`, 'yellow'))
 		}
 		if (update.connection == "open" || update.receivedPendingNotifications == "true") {
-			await XeonBotInc.sendMessage(owner + "@s.whatsapp.net", { text: `*Bot started!*\n\n\n_Don't forget to support, bro :)_\n\nYouTube: https://youtube.com/@DGXeon\n\nGitHub: https://github.com/DGXeon\n\nInstsgram: https://instagram.com/unicorn_xeon?igshid=MTIzZWQxMDU=\n\nWhatsApp Pm: wa.me/916909137213\n\n WhatsApp Gc1: https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH\n\nWhatsApp Gc2: https://chat.whatsapp.com/BW0o3ZyiAF5Azb1bIqG9Ue\n\nWhatsApp Gc3: https://chat.whatsapp.com/Dc2qyVeK8JbJq8Gr3U1pKH\n\nDonate: https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg \n\n\n_*Thanks to*_\n_*Lord Buddha*_\n_*Myself*_\n_*Family*_\n_*Friends who helped me assemble this script*_` });
-			await XeonBotInc.groupAcceptInvite("Dc2qyVeK8JbJq8Gr3U1pKH") //auto join group, if group link is invalid or if bot number is not able to join the group, then it will give error in the startup
+			await XeonBotInc.sendMessage(owner + "@s.whatsapp.net", { text: `*Bot started!*\n\n\n_Don't forget to support, bro :)_\n\nYouTube: https://youtube.com\n\nGitHub: https://github.com/Kanambp\n\nInstsgram: https://instagram.com/=\n\nWhatsApp Pm: wa.me/254114148625\n\n WhatsApp Gc1: https://chat.whatsapp.com/Ei8SGOBRMH06aD3mk23fbF\n\nWhatsApp Gc2: https://chat.whatsapp.com/Ei8SGOBRMH06aD3mk23fbF\n\nWhatsApp Gc3: https://chat.whatsapp.com/Ei8SGOBRMH06aD3mk23fbF\n\nDonate: wa.me//+254114148625 \n\n\n_*Thanks to*_\n_*ALMIGHTY*_\n_*Myself*_\n_*Family*_\n_*Friends who helped me assemble this script*_` });
+			await XeonBotInc.groupAcceptInvite("Ei8SGOBRMH06aD3mk23fbF") //auto join group, if group link is invalid or if bot number is not able to join the group, then it will give error in the startup
 			//await delay(1000 * 2) 
              //XeonBotInc.sendMessage(xeonchat, { text : 'Yooo wassup guys, cheems bot here! 👀' })
 			console.log(color(` `,'magenta'))
@@ -115,9 +115,9 @@ try{
 			await delay(1999)
             console.log(chalk.yellow(`\n\n               ${chalk.bold.blue(`[ ${botname} ]`)}\n\n`))
             console.log(color(`< ================================================== >`, 'cyan'))
-	        console.log(color(`\n${themeemoji} YT CHANNEL: Xeon`,'magenta'))
-            console.log(color(`${themeemoji} GITHUB: DGXeon `,'magenta'))
-            console.log(color(`${themeemoji} INSTAGRAM: @unicorn_xeon `,'magenta'))
+	        console.log(color(`\n${themeemoji} YT CHANNEL: Mickey`,'magenta'))
+            console.log(color(`${themeemoji} GITHUB: Kanambp `,'magenta'))
+            console.log(color(`${themeemoji} INSTAGRAM: huhu soon `,'magenta'))
             console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
             console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
 		}
@@ -143,7 +143,7 @@ XeonBotInc.ev.on('creds.update', await saveCreds)
     for (let XeonFucks of XeonPapa) {
     if (XeonFucks.isGroup == false) {
     if (XeonFucks.status == "offer") {
-    let XeonBlokMsg = await XeonBotInc.sendTextWithMentions(XeonFucks.from, `*${XeonBotInc.user.name}* can't receive ${XeonFucks.isVideo ? `video` : `voice` } call. Sorry @${XeonFucks.from.split('@')[0]} you will be blocked. If accidentally please contact the owner to be unblocked !`)
+    let XeonBlokMsg = await XeonBotInc.sendTextWithMentions(XeonFucks.from, `*${XeonBotInc.user.name}* can't receive ${XeonFucks.isVideo ? `video` : `voice` } call. Sorry @${XeonFucks.from.split('@')[0]} you will be blocked. If accidentally please contact the owner wa.me//+254114148625 to be unblocked !`)
     XeonBotInc.sendContact(XeonFucks.from, global.owner, XeonBlokMsg)
     await sleep(8000)
     await XeonBotInc.updateBlockStatus(XeonFucks.from, "block")
@@ -232,11 +232,11 @@ XeonLft = await getBuffer(ppuser)
                 if (anu.action == 'add') {
                 const xeonbuffer = await getBuffer(ppuser)
                 let xeonName = num
-                const xtime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	            const xdate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                const xtime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
+	            const xdate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
 	            const xmembers = metadata.participants.length
                 xeonbody = `┌─❖
-│「 𝗛𝗶 👋 」
+│「 𝗛𝗶 my friend 👋 」
 └┬❖ 「  @${xeonName.split("@")[0]}  」
    │✑  𝗪𝗲𝗹𝗰𝗼𝗺𝗲 𝘁𝗼 
    │✑  ${metadata.subject}
@@ -259,12 +259,12 @@ XeonBotInc.sendMessage(anu.id,
 "sourceUrl": `${wagc}`}}})
                 } else if (anu.action == 'remove') {
                 	const xeonbuffer = await getBuffer(ppuser)
-                    const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-	                const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+                    const xeontime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
+	                const xeondate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
                 	let xeonName = num
                     const xeonmembers = metadata.participants.length
                     xeonbody = `┌─❖
-│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 👋 」
+│「 𝗚𝗼𝗼𝗱𝗯𝘆𝗲 till we meet again 👋 」
 └┬❖ 「 @${xeonName.split("@")[0]}  」
    │✑  𝗟𝗲𝗳𝘁 
    │✑ ${metadata.subject}
@@ -287,8 +287,8 @@ XeonBotInc.sendMessage(anu.id,
 "sourceUrl": `${wagc}`}}})
 } else if (anu.action == 'promote') {
 const xeonbuffer = await getBuffer(ppuser)
-const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+const xeontime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
+const xeondate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
 let xeonName = num
 xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, you have been *promoted* to *admin* 🥳`
    XeonBotInc.sendMessage(anu.id,
@@ -305,8 +305,8 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, yo
 "sourceUrl": `${wagc}`}}})
 } else if (anu.action == 'demote') {
 const xeonbuffer = await getBuffer(ppuser)
-const xeontime = moment.tz('Asia/Kolkata').format('HH:mm:ss')
-const xeondate = moment.tz('Asia/Kolkata').format('DD/MM/YYYY')
+const xeontime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
+const xeondate = moment.tz('Africa/Nairobi').format('DD/MM/YYYY')
 let xeonName = num
 xeonbody = `𝗢𝗼𝗽𝘀‼️ @${xeonName.split("@")[0]}, you have been *demoted* from *admin* 😬`
 XeonBotInc.sendMessage(anu.id,
@@ -335,7 +335,7 @@ console.log(err)
             return msg?.message
         }
         return {
-            conversation: "Cheems Bot Here"
+            conversation: "Mickey Bot is Here"
         }
     }
     XeonBotInc.ev.on('messages.update', async chatUpdate => {
