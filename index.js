@@ -118,7 +118,7 @@ try{
 	        console.log(color(`\n${themeemoji} YT CHANNEL: Mickey`,'magenta'))
             console.log(color(`${themeemoji} GITHUB: Kanambp `,'magenta'))
             console.log(color(`${themeemoji} INSTAGRAM: huhu soon `,'magenta'))
-            console.log(color(`${themeemoji} WA NUMBER: ${owner}`,'magenta'))
+            console.log(color(`${themeemoji} WA NUMBER: wa.me//254114148625`,'magenta'))
             console.log(color(`${themeemoji} CREDIT: ${wm}\n`,'magenta'))
 		}
 	
