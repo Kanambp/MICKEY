@@ -2,11 +2,11 @@
 
 <h1 align="center">KANAMBO PRESENTING MICKEY<br></h1>
 <p align="center">
-<img src="https://i.imgur.com/fZei9g0.jpg" width="540" height="500" />
+<img src="https://i.imgur.com/fZei9g0.jpg" width="540" height="520" />
 </p>
 
 <p align="center">
-Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/DGXeon" target="_blank">KANAMBO PETER</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro i will appreciate.
+Cheems Bot Multi Device is a automated whatsapp bot created by <a href="https://github.com/Kanambp" target="_blank">KANAMBO PETER</a> using <a href="https://github.com/adiwajshing/Baileys" target="_blank">Baileys</a> and <a href="https://github.com/nodejs" target="_blank">Nodejs</a>. Dont forget to give a star bro i will appreciate.
 </p>
 
 <p align="center">
