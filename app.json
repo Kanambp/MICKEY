@@ -1,6 +1,12 @@
 {
-  "name": "MICKEY",
-  "description": "whatsapp md bot build with nodejs",
+	"name": "Deploy",
+	"description": "Wa Bot.",
+	"keywords": [
+		"whatsapp",
+		"bot"
+	],
+	"repository": "https://github.com/raganork-ind/whatsapp-bot",
+	"description": "whatsapp md bot build with nodejs",
   "repository": "https://github.com/Kanambp/MICKEY.git",
   "logo": "https://pbs.twimg.com/media/FO7fojOakAAyYgt?format=jpg&name=900x900",
   "keywords": ["nodejs", "bot", "whatsapp bot", "whatsapp automation", "multi device"],
@@ -15,6 +21,11 @@
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
     }
   ],
-   "addons": [{
+   }
+    },
+    "addons": [{
       "plan": "heroku-postgresql"
-    }]
+    }],
+    "buildpacks": [{
+      "url": "heroku-community/apt"
+      }
