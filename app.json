@@ -19,13 +19,11 @@
     },
     {
       "url": "https://github.com/clhuang/heroku-buildpack-webp-binaries.git"
-    }
-  ],
-   }
     },
-    "addons": [{
+    {
+      "addons": [{
       "plan": "heroku-postgresql"
     }],
-    "buildpacks": [{
+      "buildpacks": [{
       "url": "heroku-community/apt"
       }
