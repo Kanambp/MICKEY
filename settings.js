@@ -10,7 +10,7 @@ global.antispam = false //auto kick spammer (true to on, false to off)
 
 
 //if api key expire, u can generate one from here: https://beta.openai.com/account/api-keys
-global.keyopenai = "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"
+global.keyopenai = ""
 
 //documents variants
 global.doc1 = 'application/vnd.openxmlformats-officedocument.presentationml.presentation'
@@ -38,7 +38,7 @@ global.websitex = "https://youtu.be"
 global.wagc = "https://chat.whatsapp.com/Ei8SGOBRMH06aD3mk23fbF"
 global.themeemoji = '🙋🏾‍♂️'
 global.wm = "Kanambo Bot Inc."
-global.botscript = 'https://github.com' //script link
+global.botscript = 'https://github.com/Kanambp/MICKEY' //script link
 global.packname = "Sticker By"
 global.author = "🙋🏾‍♂️KANAMBO\n\n+254114148625"
 global.creator = "254114148625@s.whatsapp.net"
@@ -61,7 +61,7 @@ global.flasmurf = 'https://www6.flamingtext.com/net-fu/proxy_form.cgi?&imageoutp
 
 //messages
 global.mess = {
-    success: 'Here you go!', 
+    success: 'Here Mickey is done clap for me😍!', 
 }
 
 let file = require.resolve(__filename)
