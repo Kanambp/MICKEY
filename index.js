@@ -256,7 +256,8 @@ XeonBotInc.sendMessage(anu.id,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": XeonWlcm,
-"sourceUrl": `${wagc}`}}})
+//"sourceUrl": `${wagc}`
+		    }}})
                 } else if (anu.action == 'remove') {
                 	const xeonbuffer = await getBuffer(ppuser)
                     const xeontime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
@@ -284,7 +285,8 @@ XeonBotInc.sendMessage(anu.id,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": XeonLft,
-"sourceUrl": `${wagc}`}}})
+//"sourceUrl": `${wagc}`
+		    }}})
 } else if (anu.action == 'promote') {
 const xeonbuffer = await getBuffer(ppuser)
 const xeontime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
@@ -302,7 +304,8 @@ xeonbody = ` 𝗖𝗼𝗻𝗴𝗿𝗮𝘁𝘀🎉 @${xeonName.split("@")[0]}, yo
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": XeonWlcm,
-"sourceUrl": `${wagc}`}}})
+//"sourceUrl": `${wagc}`
+		    }}})
 } else if (anu.action == 'demote') {
 const xeonbuffer = await getBuffer(ppuser)
 const xeontime = moment.tz('Africa/Nairobi').format('HH:mm:ss')
@@ -320,7 +323,8 @@ XeonBotInc.sendMessage(anu.id,
  "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": XeonLft,
-"sourceUrl": `${wagc}`}}})
+//"sourceUrl": `${wagc}`
+		    }}})
 }
 }
 } catch (err) {
