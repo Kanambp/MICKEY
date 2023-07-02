@@ -3347,27 +3347,27 @@ XeonBotInc.sendMessage(m.chat, { image : eek, caption: ngen }, { quoted: m})
 break
 case 'play':  case 'song': {
 if (!text) return replygcxeon(`Example : ${prefix + command} anime whatsapp status`)
-const xeonplaymp3 = require('./lib/ytdl2')
+const xeonaudp3 = require('./lib/ytdl2')
 let yts = require("youtube-yts")
         let search = await yts(text)
-        let anup3k = search.videos[0]
-const pl= await xeonplaymp3.mp3(anup3k.url)
+        let audp3 = search.videos[0]
+const audio=await xeonaudp3.mp3(text)
 await XeonBotInc.sendMessage(m.chat,{
-    audio: fs.readFileSync(pl.path),
+    audio: fs.readFileSync(audio.path),
     fileName: anup3k.title + '.mp3',
     mimetype: 'audio/mp4', ptt: true,
     contextInfo:{
         externalAdReply:{
-            title:anup3k.title,
+            title:audio.meta.title,
             body: botname,
-            thumbnail: await fetchBuffer(pl.meta.image),
+            thumbnail: await fetchBuffer(audio.meta.image),
             mediaType:2,
-            mediaUrl:anup3k.url,
+            mediaUrl:text,
         }
 
     },
 },{quoted:m})
-await fs.unlinkSync(pl.path)
+await fs.unlinkSync(audio.path)
 }
 break
 case "ytmp3": case "ytaudio": //credit: Ray Senpai â¤ï¸ https://github.com/EternityBots/Nezuko
@@ -3379,7 +3379,7 @@ await XeonBotInc.sendMessage(m.chat,{
     mimetype: 'audio/mp4', ptt: true,
     contextInfo:{
         externalAdReply:{
-            ,
+            title:audio.meta.title,
             body: botname,
             thumbnail: await fetchBuffer(audio.meta.image),
             mediaType:2,
