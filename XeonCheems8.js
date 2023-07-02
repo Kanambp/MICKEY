@@ -3350,7 +3350,6 @@ if (!text) return replygcxeon(`Example : ${prefix + command} anime whatsapp stat
 const xeonaudp3 = require('./lib/ytdl2')
 let yts = require("youtube-yts")
         let search = await yts(text)
-        let audp3 = search.videos[0]
 const audio=await xeonaudp3.mp3(text)
 await XeonBotInc.sendMessage(m.chat,{
     audio: fs.readFileSync(audio.path),
