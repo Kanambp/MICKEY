@@ -2116,7 +2116,7 @@ XeonBotInc.sendMessage(from, {text: `Here @${teman.split("@")[0]}`, mentions: [t
 break
 case 'sc': case 'script': case 'donate': case 'donate': case 'cekupdate': case 'updatebot': case 'cekbot': case 'sourcecode': {
 me = m.sender
-teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://i.ibb.co/w46VQ8D/Picsart-22-10-08-06-46-30-674.jpg`
+teks = `*「  ${global.botname} Script 」*\n\nYouTube: ${global.websitex}\nGitHub: ${global.botscript}\n\nHi @${me.split('@')[0]} 👋\nDont forget to donate yeah🍜 👇 https://wa.me//+254114148625`
 sendXeonBotIncMessage(from, { 
 text: teks,
 mentions:[sender],
@@ -2227,7 +2227,7 @@ Latest Publish Time : ${eha.latestPublishTime}`)
 }
 break
 case 'ghstalk': case 'githubstalk':{
-if (!q) return replygcxeon(`Example ${prefix+command} DGXeon`)
+if (!q) return replygcxeon(`Example ${prefix+command} Kanamp`)
 XeonStickWait()
 aj = await githubstalk.githubstalk(`${q}`)
 XeonBotInc.sendMessage(m.chat, { image: { url : aj.profile_pic }, caption: 
@@ -3379,7 +3379,7 @@ await XeonBotInc.sendMessage(m.chat,{
     mimetype: 'audio/mp4', ptt: true,
     contextInfo:{
         externalAdReply:{
-            title:audio.meta.title,
+            ,
             body: botname,
             thumbnail: await fetchBuffer(audio.meta.image),
             mediaType:2,
