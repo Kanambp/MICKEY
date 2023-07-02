@@ -3347,20 +3347,22 @@ XeonBotInc.sendMessage(m.chat, { image : eek, caption: ngen }, { quoted: m})
 break
 case 'play':  case 'song': {
 if (!text) return replygcxeon(`Example : ${prefix + command} anime whatsapp status`)
-const xeonaudp3 = require('./lib/ytdl2')
+const xeonplaymp3 = require('./lib/ytdl2')
 let yts = require("youtube-yts")
         let search = await yts(text)
-const audio=await xeonaudp3.mp3(text)
+        let anup3k = search.videos[0]
+const pl= await xeonplaymp3.mp3(anup3k.url)
 await XeonBotInc.sendMessage(m.chat,{
-    audio: fs.readFileSync(audio.path),
+    audio: fs.readFileSync(pl.path),
+    fileName: anup3k.title + '.mp3',
     mimetype: 'audio/mp4', ptt: true,
     contextInfo:{
         externalAdReply:{
-            title:audio.meta.title,
+            title:anup3k.title,
             body: botname,
-            thumbnail: await fetchBuffer(audio.meta.image),
+            thumbnail: await fetchBuffer(pl.meta.image),
             mediaType:2,
-            mediaUrl:text,
+            mediaUrl:anup3k.url,
         }
 
     },
