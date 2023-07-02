@@ -3351,10 +3351,9 @@ const xeonaudp3 = require('./lib/ytdl2')
 let yts = require("youtube-yts")
         let search = await yts(text)
         let audp3 = search.videos[0]
-const audio=await xeonaudp3.mp3(text)
+const audio=await xeonaudp3.mp3(anup3k.url)
 await XeonBotInc.sendMessage(m.chat,{
     audio: fs.readFileSync(audio.path),
-    fileName: anup3k.title + '.mp3',
     mimetype: 'audio/mp4', ptt: true,
     contextInfo:{
         externalAdReply:{
