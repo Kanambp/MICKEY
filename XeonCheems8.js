@@ -503,7 +503,7 @@ isForwarded: true,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),
-"sourceUrl": `${wagc}`}}},
+}}},
 { quoted: m})
 }
 const replygcxeon2 = (teks) => {        
@@ -521,8 +521,6 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": defaultpp,
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1569,8 +1567,7 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+
 }
 }
 })
@@ -1590,8 +1587,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1611,8 +1608,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1632,8 +1629,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1653,8 +1650,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1674,8 +1671,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1695,8 +1692,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1716,8 +1713,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1737,8 +1734,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1758,8 +1755,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1779,8 +1776,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1800,8 +1797,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1821,8 +1818,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1842,8 +1839,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1863,8 +1860,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1884,8 +1881,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1905,8 +1902,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -1926,8 +1923,8 @@ mentionedJid:[sender],
 "containsAutoReply": true,
 "mediaType": 1, 
 "thumbnail": fs.readFileSync("./XeonMedia/theme/cheemspic.jpg"),
-"mediaUrl": `${wagc}`,
-"sourceUrl": `${wagc}`
+//"mediaUrl": `${wagc}`,
+//"sourceUrl": `${wagc}`
 }
 }
 })
@@ -6067,7 +6064,8 @@ isForwarded: true,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),
-"sourceUrl": `${wagc}`}}},
+//"sourceUrl": `${wagc}`
+	}}},
 { quoted: m})        
             }
             break
@@ -6091,7 +6089,8 @@ isForwarded: true,
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),
-"sourceUrl": `${wagc}`}}},
+//"sourceUrl": `${wagc}`
+}}},
 { quoted: m})        
             }
             break
@@ -6140,7 +6139,7 @@ mentionedJid:[xeonshimts],
 "previewType": "PHOTO",
 "thumbnailUrl": ``,
 "thumbnail": fs.readFileSync(`./XeonMedia/theme/cheemspic.jpg`),
-"sourceUrl": `${wagc}`
+//"sourceUrl": `${wagc}`
 }
 }
 }, { quoted: m })
